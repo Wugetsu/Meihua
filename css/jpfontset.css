@@ -1,0 +1,22 @@
+/*
+http://g-azami.tumblr.com/
+v1.0 | 20140213
+License: none (public domain)
+*/
+
+.gothic {
+font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+} /* ゴシック体 */
+
+.mincho {
+font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+} /* 明朝体 */
+
+.mono {
+font-family: "Osaka－等幅", Osaka-mono, "ＭＳ ゴシック", "MS Gothic", monospace;
+} /* 等幅書体 */
+
+.hiraginoMaruGothic {
+font-family: "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", "メイリオ", Meiryo, fantasy;
+} /* OS X限定 丸ゴシック体 */
+

@@ -1,0 +1,179 @@
+/*
+Theme Name: Meihua
+Theme URI: ---
+Author: Kuki Akitoshi
+Author URI: http://wugetsu.jp/
+Description: This WordPressTheme is that specializes in reading the sentence and novels of Japanese.
+Version: 0.1.0
+*/
+
+
+
+@charset "UTF-8";
+/* CSS Document */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button,adress,table,ul,li,ol,dl,dd,dt {
+	font-family: "Times New Roman", "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+	margin:0; padding:0; border:0;
+	color:#000;}
+
+P { line-height:16px;line-height:2.1;
+	text-indent:1em;
+	}
+
+p.chapter{
+	line-height:5em; text-indent:6em; font-weight:bold;
+	}
+
+ruby
+{
+	margin:0px;
+	padding:0;
+	border:0;
+	}
+
+
+ruby rt
+{
+	letter-spacing:-1px;
+
+}
+
+
+/*------------Bootstrapカスタマイズ-------------*/
+
+html { font-size: 62.5%; }
+body { font-size: 16px; font-size: 1.6rem;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+    color: #333;
+  background-color: #fff;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h1 .small,
+.h2 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #777;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+h1 small,
+.h1 small,
+h2 small,
+.h2 small,
+h3 small,
+.h3 small,
+h1 .small,
+.h1 .small,
+h2 .small,
+.h2 .small,
+h3 .small,
+.h3 .small {
+  font-size: 65%;
+}
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+h4 small,
+.h4 small,
+h5 small,
+.h5 small,
+h6 small,
+.h6 small,
+h4 .small,
+.h4 .small,
+h5 .small,
+.h5 .small,
+h6 .small,
+.h6 .small {
+  font-size: 75%;
+}
+h1,
+.h1 {
+  font-size: 40px; font-size: 4.0rem;
+}
+h2,
+.h2 {
+  font-size: 32px; font-size: 3.2rem;
+}
+h3,
+.h3 {
+    font-size: 24px; font-size: 2.4rem;
+}
+h4,
+.h4 {
+  font-size: 18px; font-size: 1.8rem;
+}
+h5,
+.h5 {
+  font-size: 14px; font-size: 1.4rem;
+}
+h6,
+.h6 {
+  font-size: 12px; font-size: 1.2rem;
+}
+
+
+.lead {
+  margin-bottom: 20px;
+   font-size: 18px; font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
